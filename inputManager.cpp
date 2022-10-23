@@ -1,14 +1,13 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <filesystem>
 
 const std::string OUTPUT_FILE_PATH = "Assets/CPP_Applications/Windows/_communications/input.txt";
 
 std::string getUserInput();
 void writeToFile(std::string str);
 
-
+// compilation flags: g++ inputManager.cpp -o inputManager -static-libgcc -static-libstdc++
 int main()
 {
     system("cd");
