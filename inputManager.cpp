@@ -2,7 +2,7 @@
 #include <string>
 #include <fstream>
 
-const std::string OUTPUT_FILE_PATH = "Assets/CPP_Applications/Windows/_communications/input.txt";
+const std::string OUTPUT_FILE_PATH = "ChrosGame_Data/CPP_Applications/Windows/_communications/input.txt";
 
 std::string getUserInput();
 void writeToFile(std::string str);
