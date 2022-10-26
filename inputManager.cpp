@@ -7,7 +7,6 @@ const std::string OUTPUT_FILE_PATH = "ChrosGame_Data/CPP_Applications/Windows/_c
 std::string getUserInput();
 void writeToFile(std::string str);
 
-// compilation flags: g++ inputManager.cpp -o inputManager -static-libgcc -static-libstdc++
 int main()
 {
     system("cd");
