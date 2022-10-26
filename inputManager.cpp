@@ -9,8 +9,6 @@ void writeToFile(std::string str);
 
 int main()
 {
-    system("cd");
-    
     while(true) {
         std::string input = getUserInput();
         if(input == "exit") {
